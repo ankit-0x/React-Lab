@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgb(55, 195, 127);
+  padding: 20px 25px;
+  width: 280px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #555;
+}
