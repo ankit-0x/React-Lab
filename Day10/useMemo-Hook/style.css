@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.counter-box,
+.fib-box {
+  margin-top: 25px;
+}
+
+.count-text,
+.fib-text {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.increment {
+  background: #4caf50;
+  color: white;
+}
+
+.decrement {
+  background: #f44336;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.input-number {
+  padding: 10px;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 16px;
+}
+
+.input-number:focus {
+  outline: none;
+  border-color: #4caf50;
+}

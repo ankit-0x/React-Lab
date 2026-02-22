@@ -1,0 +1,25 @@
+{
+  "name": "react-basics",
+  "version": "1.0.0",
+  "description": "React Learning",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit-0x/React-Lab.git"
+  },
+  "author": "Ankit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankit-0x/React-Lab/issues"
+  },
+  "homepage": "https://github.com/ankit-0x/React-Lab#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

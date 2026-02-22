@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fb;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* User Card */
+.user {
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  background: #eef2ff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.user:hover {
+  background: #dbe4ff;
+}
+
+/* Loading / Error */
+.status {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
